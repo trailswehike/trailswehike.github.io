@@ -494,7 +494,7 @@ body {
     animation: draw 4s linear infinite;
     animation-fill-mode: forwards;
     stroke-dasharray: 1400;
-    stroke-dashoffset: 1400;
+    stroke-dashoffset: 2400;
     animation-duration: 3s;
     animation-delay: 1s;
 }
