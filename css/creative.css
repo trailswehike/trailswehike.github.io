@@ -529,6 +529,16 @@ Now we add the actual animation.
     -moz-animation-name: draw;
     -moz-animation-timing-function: linear;
     -moz-animation-duration: 3.5s;
+    
+      fill: none;
+  stroke: #37475B;
+  stroke-width: 1;
+  stroke-dasharray: 190;
+  stroke-dashoffset: 190;
+  animation-name: draw;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 .cls-1 { stroke-width:3px; }
 .cls-2 { stroke-width:5px; }
@@ -540,3 +550,4 @@ Now we add the actual animation.
     stroke-dashoffset: 0;
   }
 }
+
