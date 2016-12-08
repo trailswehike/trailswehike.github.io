@@ -507,28 +507,21 @@ Now we add the actual animation.
  
 --------------------------- */
  
-.adobe-logo {
- 
-stroke: #fee16e;
- 
+.cls-1 {
+  stroke: #fee16e;
 }
  
-.adobe-logo:hover {
- 
-fill: #feae6e;
- 
-stroke-width: 8;
- 
+.cls-1o:hover {
+  fill: #feae6e;
+  stroke-width: 8;
 }
  
-.adobe-logo {
- 
-transition: .3s ease-out;
- 
+.cls-1 {
+  transition: .3s ease-out;
 }
 
 svg {
-  .adobe-logo {
+  .cls-1 {
     stroke: #000;
     stroke-width: 1;
     stroke-dasharray: 100px;
