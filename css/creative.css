@@ -518,3 +518,13 @@ Now we add the actual animation.
     stroke-dashoffset: 0;
   }
 }
+
+
+.cls-1,.cls-2,.cls-3 {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit:10;
+}
+.cls-1 { stroke-width:3px; }
+.cls-2 { stroke-width:5px; }
+.cls-3 { stroke-dasharray:1 3; }
