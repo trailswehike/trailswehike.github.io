@@ -511,9 +511,24 @@ Now we add the actual animation.
     fill: none;
     stroke: #fff;
     stroke-miterlimit:10;
-    animation: draw 3.5s infinite;
-    -webkit-animation: draw 3.5s infinite;
-    -moz-animation: draw 3.5s infinite;
+
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: draw;
+    animation-timing-function: linear;
+    animation-duration: 3.5s;
+
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: draw;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 3.5s;
+
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: draw;
+    -moz-animation-timing-function: linear;
+    -moz-animation-duration: 3.5s;
 }
 .cls-1 { stroke-width:3px; }
 .cls-2 { stroke-width:5px; }
@@ -521,7 +536,7 @@ Now we add the actual animation.
 
 
 @keyframes draw {
-  50% {
+  to {
     stroke-dashoffset: 0;
   }
 }
