@@ -512,6 +512,8 @@ Now we add the actual animation.
     stroke: #fff;
     stroke-miterlimit:10;
     animation: draw 3.5s infinite;
+    -webkit-animation: draw 3.5s infinite;
+    -moz-animation: draw 3.5s infinite;
 }
 .cls-1 { stroke-width:3px; }
 .cls-2 { stroke-width:5px; }
