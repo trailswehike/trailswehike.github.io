@@ -509,12 +509,20 @@ Now we add the actual animation.
  
 .adobe-logo {
  
-transition: .3s ease-out;
+stroke: #fee16e;
  
 }
  
 .adobe-logo:hover {
  
-fill: #3881cc;
+fill: #feae6e;
+ 
+stroke-width: 8;
+ 
+}
+ 
+.adobe-logo {
+ 
+transition: .3s ease-out;
  
 }
