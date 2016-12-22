@@ -267,10 +267,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-.service-box a {
-    color: rgb(51, 51, 51);
-}
-
 .portfolio-box {
     display: block;
     position: relative;
@@ -494,6 +490,6 @@ body {
     position: relative;
 }
 
-a. {
-    
+.service-box a {
+    color: rgb(51, 51, 51);
 }
