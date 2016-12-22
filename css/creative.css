@@ -489,3 +489,8 @@ body {
     overflow: visible;
     position: relative;
 }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
