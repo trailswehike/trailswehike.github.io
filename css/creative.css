@@ -267,6 +267,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
+.service-box a {
+    color: rgb(51, 51, 51);
+}
+
 .portfolio-box {
     display: block;
     position: relative;
@@ -490,23 +494,6 @@ body {
     position: relative;
 }
 
-.food-path {
-    animation: draw 4s linear infinite;
-    animation-fill-mode: forwards;
-    stroke-dasharray: 1400;
-    stroke-dashoffset: 2400;
-    animation-duration: 3s;
-    animation-delay: 1s;
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes show {
-  to {
-    opacity: 1;
-  }
+a. {
+    
 }
