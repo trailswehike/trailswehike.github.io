@@ -31,6 +31,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+ 
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>function showMailingPopUp() {
+require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"fb339e3a6f2bd07d9f970190b",
+"lid":"dccc9a2c6b"}) })
+document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};</script>
+
     </head>
     <body id="page-top">
         
@@ -460,7 +468,7 @@
         <div class="call-to-action">
             <h2>Sign up for our newsletter!</h2>
             
-                <a href="mailto:subscribe@trailswehike.com" class="btn btn-default btn-xl wow tada">Subscribe</a>
+                <a href="#" id="open-mc-popup" class="btn btn-default btn-xl wow tada" onclick ="showMailingPopUp(); return false;">Subscribe</a>
             
         </div>
     </div>
@@ -471,7 +479,6 @@
         
             <!-- CONTACT -->
 <section id="contact">
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"fb339e3a6f2bd07d9f970190b","lid":"dccc9a2c6b"}) })</script>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
