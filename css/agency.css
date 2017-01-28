@@ -590,6 +590,7 @@ section h3.section-subheading {
         margin-top: 16px;
         font-size: 13px;
         line-height: 18px;
+        color: white;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -618,6 +619,7 @@ section h3.section-subheading {
         margin-top: 30px;
         font-size: 18px;
         line-height: 26px;
+        color: white;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -642,6 +644,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
+        color: white;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
